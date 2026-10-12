@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Certificate Details</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 30px 12px;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(120deg, #482678, #2878db);
+    color: #29436b;
+}
+
+.container {
+    max-width: 620px;
+    margin: auto;
+    background: #f5f5f7;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+.header {
+    padding: 55px 20px;
+    text-align: center;
+    color: white;
+    background: linear-gradient(120deg, #4b2a80, #367fe8);
+}
+
+.header h1 {
+    font-size: 36px;
+    line-height: 1.2;
+    margin: 0 0 35px;
+}
+
+.verified {
+    display: inline-block;
+    padding: 14px 30px;
+    border-radius: 35px;
+    background: rgba(255,255,255,0.25);
+    font-size: 18px;
+}
+
+.certificate-id {
+    margin: 65px 25px 35px;
+    padding: 32px 10px;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    background: linear-gradient(120deg, #4b2a80, #367fe8);
+}
+
+.certificate-id .label {
+    font-size: 19px;
+    margin-bottom: 12px;
+}
+
+.certificate-id .number {
+    font-size: clamp(22px, 5vw, 32px);
+    font-weight: bold;
+    overflow-wrap: anywhere;
+}
+
+.content {
+    padding: 0 25px 55px;
+}
+
+h2 {
+    font-size: 29px;
+    font-weight: normal;
+    margin: 35px 0 25px;
+    padding-bottom: 18px;
+    border-bottom: 3px solid #4387e8;
+}
+
+.detail {
+    padding: 25px;
+    margin-bottom: 25px;
+    border: 1px solid #e2e7ef;
+    border-radius: 15px;
+    background: #f9fafc;
+}
+
+.label {
+    display: block;
+    margin-bottom: 12px;
+    font-size: 17px;
+    color: #737373;
+    text-transform: uppercase;
+}
+
+.value {
+    font-size: 23px;
+    line-height: 1.4;
+    overflow-wrap: anywhere;
+}
+
+.notice {
+    margin: 20px 25px 0;
+    padding: 14px;
+    border-radius: 10px;
+    background: #fff2d3;
+    color: #674d15;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.footer {
+    padding: 28px 20px;
+    background: #202f49;
+    color: #dce2ed;
+    text-align: center;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+@media (max-width: 400px) {
+    .header h1 {
+        font-size: 29px;
+    }
+
+    .content {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    .detail {
+        padding: 20px;
+    }
+
+    .value {
+        font-size: 20px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <header class="header">
+        <h1>✓ Valid Certificate<br>Verified</h1>
+        <div class="verified">VERIFIED</div>
+    </header>
+
+    <div class="certificate-id">
+        <div class="label" style="color:white;">
+            Certificate ID
+        </div>
+        <div class="number">820BFB60F9B2BA7C</div>
+    </div>
+
+    <main class="content">
+
+        <h2>Student Information</h2>
+
+        <div class="detail">
+            <span class="label">Student Name</span>
+            <div class="value">
+                Gangireddypalem Lakshmi Prasanna
+            </div>
+        </div>
+
+        <h2>Course Details</h2>
+
+        <div class="detail">
+            <span class="label">Course Name</span>
+            <div class="value">Data Analytics</div>
+        </div>
+
+        <div class="detail">
+            <span class="label">Category</span>
+            <div class="value">Internship</div>
+        </div>
+
+        <div class="detail">
+            <span class="label">Duration</span>
+            <div class="value">6 Weeks</div>
+        </div>
+
+        <div class="detail">
+            <span class="label">Company Name</span>
+            <div class="value">
+                CODTECH IT SOLUTIONS PRIVATE LIMITED
+            </div>
+        </div>
+
+        <h2>Internship Period</h2>
+
+        <div class="detail">
+            <span class="label">Start Date</span>
+            <div class="value">15 June 2026</div>
+        </div>
+
+        
+    </main>
+
+    <footer class="footer">
+        This certificate has been verified and is authentic.
+    </footer>
+
+</div>
+
+</body>
+</html>
